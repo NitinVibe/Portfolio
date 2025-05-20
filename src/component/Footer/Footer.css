@@ -26,7 +26,7 @@
   padding-right: 80px;
 }
 .footer-email-input input {
-  outline: mone;
+  outline: none;
   border: none;
   background: transparent;
   color: #a0a0a0;
@@ -57,9 +57,9 @@
 .footer-subscribe:hover {
   transform: scale();
 }
-@media (max-width: 768px) {
+@media (max-width: 440px) {
   .footer {
-    margin: 50px 70px;
+    margin-left: 10%;
   }
   .footer-top {
     flex-direction: column;
@@ -69,5 +69,22 @@
     display: flex;
     flex-direction: column-reverse;
     margin-bottom: 50px;
+  }
+  .footer-top-left p {
+    font-size: 16px;
+  }
+  .footer-email-input {
+    width: 190px;
+    font-size: 16;
+  }
+  .footer-subscribe {
+    width: 145px;
+    margin-left: 0px;
+  }
+  .footer-bottom-left {
+    font-size: 14px;
+  }
+  .footer-bottom-right p {
+    font-size: 16px;
   }
 }
