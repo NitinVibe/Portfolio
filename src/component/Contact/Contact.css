@@ -102,7 +102,7 @@
   transform: scale(1.1);
   transition: 0.3s;
 }
-@media (max-width: 440px) {
+@media (max-width: 400px) {
   .contact {
     gap: 50px;
     margin: 50px 50px;
@@ -131,6 +131,9 @@
   }
   .contact-detail img {
     width: 25px;
+  }
+  .contact-right {
+    margin-top: -100px;
   }
   .contact-right-label {
     font-size: 20px;

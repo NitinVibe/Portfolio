@@ -5,10 +5,13 @@ import Services_Data from '../../assets/services_data'
 import arrow_icon from '../../assets/arrow_icon.svg'
 const Services = () => {
     return (
-        <div id='services' className='services'>
+        <div className="services-wrapper">
             <div className="services-title">
                 <h1>My Services</h1>
                 <img className="services-bg" src={theme_pattern} alt="" />
+            </div>
+            <div id='services' className='services'>
+
                 <div className="services-container">
                     {Services_Data.map((service, index) => {
                         return <div key={index} className='services-format'>
@@ -22,9 +25,10 @@ const Services = () => {
                         </div>
                     })}
                 </div>
-            </div>
 
-        </div >
+
+            </div >
+        </div>
     )
 }
 

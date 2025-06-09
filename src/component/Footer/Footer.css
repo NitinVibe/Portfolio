@@ -57,7 +57,7 @@
 .footer-subscribe:hover {
   transform: scale();
 }
-@media (max-width: 440px) {
+@media (max-width: 400px) {
   .footer {
     margin-left: 10%;
   }
@@ -74,12 +74,18 @@
     font-size: 16px;
   }
   .footer-email-input {
-    width: 190px;
-    font-size: 16;
+    height: 60px;
+    width: 180px;
+    font-size: 14;
   }
   .footer-subscribe {
-    width: 145px;
-    margin-left: 0px;
+    height: 60px;
+    width: 115px;
+    margin-left: -10px;
+  }
+  .footer-subscribe p {
+    font-size: 16px;
+    margin-left: -20px;
   }
   .footer-bottom-left {
     font-size: 14px;
