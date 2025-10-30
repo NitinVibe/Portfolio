@@ -50,8 +50,8 @@ body {
 .nav-menu li img {
   display: flex;
   margin: auto;
-  margin-left: -40px;
-  margin-top: 10px;
+  margin-left: 50px;
+  margin-top: -13px;
   z-index: -1;
 }
 .anchor-link {
@@ -117,5 +117,12 @@ body {
     padding-left: 100px;
     flex-direction: row;
     gap: 20px;
+  }
+  .nav-menu li img {
+    display: flex;
+    margin: auto;
+    margin-left: -40px;
+    margin-top: 10px;
+    z-index: -1;
   }
 }
