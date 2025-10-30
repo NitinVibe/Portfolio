@@ -19,13 +19,15 @@ body {
 }
 .navbar p {
   font-size: 20px;
+  /* Removed margin-left to align with the list item structure */
   margin-left: 0%;
 }
 .nav-menu {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 0px; /* reduced from 60px */
+  /* FIX: Added space back between links for desktop view */
+  gap: 60px;
   font-size: 20px;
 }
 .nav-connect {
@@ -42,19 +44,23 @@ body {
 .nav-menu li {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 0px;
   cursor: pointer;
 }
 .nav-menu li img {
   display: flex;
   margin: auto;
+  margin-left: -40px;
+  margin-top: 10px;
+  z-index: -1;
 }
 .anchor-link {
   text-decoration: none;
   color: white;
 }
 .anchor-link p {
-  margin-left: 100px;
+  /* FIX: CRITICAL CHANGE - Removed the 100px margin that was scattering the links */
+  margin-left: 0px;
 }
 .anchor-link img {
   margin-left: 0px;
@@ -107,6 +113,7 @@ body {
 
   .nav-menu li {
     font-size: 30px;
+    /* This padding is likely intended to push the menu items right when the mobile menu is open */
     padding-left: 100px;
     flex-direction: row;
     gap: 20px;
