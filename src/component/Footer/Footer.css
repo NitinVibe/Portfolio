@@ -57,7 +57,7 @@
 .footer-subscribe:hover {
   transform: scale();
 }
-@media (max-width: 420px) {
+@media (max-width: 669px) {
   .footer {
     margin-left: 10%;
   }

@@ -85,7 +85,7 @@
     margin-left: 8%;
   }
 } */
-@media (max-width: 420px) {
+@media (max-width: 669px) {
   .hero img {
     margin-top: 20px;
     width: 220px;
