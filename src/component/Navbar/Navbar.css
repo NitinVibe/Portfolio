@@ -65,7 +65,7 @@ body {
 .nav-mob-open {
   display: none;
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .navbar {
     margin: 20px 0px;
   }

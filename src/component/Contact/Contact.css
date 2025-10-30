@@ -102,7 +102,7 @@
   transform: scale(1.1);
   transition: 0.3s;
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .contact {
     gap: 50px;
     margin: 50px 50px;
